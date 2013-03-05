@@ -1,0 +1,9 @@
+# Shell defaults
+alias lls='ls -AFeltcGO@'
+alias top='top -a -o cpu'
+
+# Shortcuts
+alias showallfiles="defaults write com.apple.Finder AppleShowAllFiles TRUE"
+alias hidefiles="defaults write com.apple.Finder AppleShowAllFiles FALSE"
+alias truecrypt='/Applications/TrueCrypt.app/Contents/MacOS/Truecrypt --text'
+alias update='brew update; brew upgrade; brew doctor;'

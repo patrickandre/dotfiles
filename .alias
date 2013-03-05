@@ -1,4 +1,0 @@
-alias ls='ls -AcFL'
-alias truecrypt='/Applications/TrueCrypt.app/Contents/MacOS/Truecrypt --text'
-alias update='brew update; brew upgrade; brew doctor;'
-alias top='top -a -o cpu'
