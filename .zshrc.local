@@ -32,6 +32,7 @@ function most_useless_use_of_zsh {
 ###############
 # Exports
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+#export EDITOR="/usr/bin/vi"
 export EDITOR="/usr/local/bin/subl -w"
 
 ## turnoff annoying autocorrect

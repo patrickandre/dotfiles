@@ -1,0 +1,12 @@
+/****************
+ * (>>>FILE<<<)
+ * (>>>AUTHOR<<<)
+ * (>>>ISO_DATE<<<)
+ ***************/
+class A_CLASS
+{
+    public static void main(String[] args) 
+    {
+        System.out.println("Hello World!");
+    }
+}
