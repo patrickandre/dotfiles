@@ -3,6 +3,7 @@ alias lls='ls -ALHO -lh'
 alias top='top -a -o cpu'
 
 # Shortcuts
+alias myip="curl ifconfig.me/ip"
 alias tcpdump="tcpdump -i en1 -s 0 -n -e -x -vvv"
 alias showallfiles="defaults write com.apple.Finder AppleShowAllFiles TRUE"
 alias hidefiles="defaults write com.apple.Finder AppleShowAllFiles FALSE"
