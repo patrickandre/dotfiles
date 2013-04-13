@@ -698,7 +698,7 @@ bindkey "\e[6~" history-beginning-search-forward-end  # PageDown
 # bindkey -s '^b' " &\n"                # ctrl-B runs it in the background
 
 # insert unicode character
-# usage example: 'ctrl-x i' 00A7 'ctrl-x i' will give you an �
+# usage example: 'ctrl-x i' 00A7 'ctrl-x i' will give you an §
 # See for example http://unicode.org/charts/ for unicode characters code
 zrcautoload insert-unicode-char
 zle -N insert-unicode-char
@@ -1407,7 +1407,8 @@ ${BLUE}%n${NO_COLOR}@%m %40<...<%B%~%b%<< "
     fi
 fi
 
-PROMPT="${PROMPT}"'${vcs_info_msg_0_}'"%# "
+# PROMPT="${PROMPT}"'${vcs_info_msg_0_}'"%# "
+PROMPT="${BLUE}%40<...<%B%~%b%<< "'${vcs_info_msg_0_}'"☥  " #This is a better prompt. I already know who I am.
 
 # if we are inside a grml-chroot set a specific prompt theme
 if [[ -n "$GRML_CHROOT" ]] ; then

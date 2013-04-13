@@ -5,4 +5,6 @@ chflags nohidden ~/Library/
 
 source /usr/local/etc/bash_completion.d/password-store
 
-source ~/.alias
+source ~/.aliases
+
+export PS1="\w ð  "
