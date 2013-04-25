@@ -1,3 +1,4 @@
+###############
 # History
 export HISTTIMEFORMAT='%F %T '
 export HISTCONTROL=erasedups ignorespace
